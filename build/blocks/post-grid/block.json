@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-crafts/post-grid",
+  "version": "1.0.0",
+  "title": "Post Grid",
+  "category": "post-crafts",
+  "icon": "grid-view",
+  "description": "Arrange posts in Grids.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "taxQuery": {
+      "type": "object"
+    },
+    "taxRelation": {
+      "type": "string",
+      "default": "AND"
+    },
+    "catOperator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "tagOperator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "postsPerPage": {
+      "type": "number",
+      "default": 6
+    },
+    "sorting": {
+      "type": "object",
+      "default": {
+        "order": "desc",
+        "orderBy": "date"
+      }
+    },
+    "postIds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "default": []
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "value": 3
+      }
+    },
+    "columnGap": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "value": 20
+      }
+    },
+    "rowGap": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "value": 20
+      }
+    },
+    "excludeCurrentPost": {
+      "type": "boolean",
+      "default": false
+    },
+    "ignoreSticky": {
+      "type": "boolean",
+      "default": false
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "paginationType": {
+      "type": "string",
+      "default": "pagination"
+    },
+    "paginationAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "excerpt": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 55
+    }
+  },
+  "keywords": [],
+  "textdomain": "post-crafts",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

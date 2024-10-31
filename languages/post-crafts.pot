@@ -1,0 +1,361 @@
+# Copyright (C) 2024 wpCraftz
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: PostCrafts - Gutenberg Post Blocks 0.1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/post-crafts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-09T11:27:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: post-crafts\n"
+
+#. Plugin Name of the plugin
+msgid "PostCrafts - Gutenberg Post Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpcraftz.com/postcrafts/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Advanced blocks to highlight, summarize and beautifully organize your posts."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpCraftz"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpcraftz.com/"
+msgstr ""
+
+#: inc/classes/class-admin.php:31
+#: inc/classes/class-admin.php:32
+msgid "PostCrafts"
+msgstr ""
+
+#: inc/classes/class-admin.php:47
+msgid "PostCrafts Settings"
+msgstr ""
+
+#: inc/classes/class-api.php:56
+msgid "ID of the current post"
+msgstr ""
+
+#: inc/classes/class-api.php:61
+msgid "Style to be saved"
+msgstr ""
+
+#: inc/classes/class-blocks.php:57
+msgid "Advanced Post Blocks"
+msgstr ""
+
+#: inc/classes/class-plugin.php:99
+msgid "No more posts found"
+msgstr ""
+
+#: inc/helpers/custom-functions.php:258
+msgid "Prev"
+msgstr ""
+
+#: inc/helpers/custom-functions.php:294
+msgid "Next"
+msgstr ""
+
+#: inc/templates/block-templates/loadmore.php:28
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Load More"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Look for a Post"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid " items are selected"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Insert Selected"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Post ID"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Post Title"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Post Status"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Post Link"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "(No Title)"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "No Post Found"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Operator"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "IN"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "NOT IN"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:1
+#: build/blocks/post-list/index.js:5
+msgid "AND"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Finish Sorting"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Newest to oldest"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:1
+#: build/blocks/post-list/index.js:1
+msgid "Oldest to newest"
+msgstr ""
+
+#. translators: label for ordering posts by title in ascending order
+#: build/blocks/post-grid/index.js:3
+#: build/blocks/post-list/index.js:3
+msgid "A → Z"
+msgstr ""
+
+#. translators: label for ordering posts by title in descending order
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Z → A"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Order by"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Select Posts"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Sort Selected Posts"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Modify Selection"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Clear Selection"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Clear"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "You can select "
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid " more "
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "posts"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "post"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Sort Posts"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Max number of Posts "
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Relation"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "OR"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "The logical relationship between above taxonomies."
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Exclude Current Post"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Show Category?"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Show Excerpt?"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Layout Settings"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+msgid "Columns"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+msgid "Column Gap"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Row Gap"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Alignment"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "pagination"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "arrow"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "loadmore"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Pagination Type"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Pagination"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Enable Pagination"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Excerpt"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Show Excerpt "
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Excerpt Length"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "Query Builder"
+msgstr ""
+
+#: build/blocks/post-grid/index.js:5
+#: build/blocks/post-list/index.js:5
+msgid "No results found."
+msgstr ""
+
+#: build/blocks/post-grid/block.json
+msgctxt "block title"
+msgid "Post Grid"
+msgstr ""
+
+#: build/blocks/post-grid/block.json
+msgctxt "block description"
+msgid "Arrange posts in Grids."
+msgstr ""
+
+#: build/blocks/post-list/block.json
+msgctxt "block title"
+msgid "Post List"
+msgstr ""
+
+#: build/blocks/post-list/block.json
+msgctxt "block description"
+msgid "Arrange posts in list-view."
+msgstr ""

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-crafts/post-list",
+  "version": "1.0.0",
+  "title": "Post List",
+  "category": "post-crafts",
+  "icon": "list-view",
+  "description": "Arrange posts in list-view.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "taxQuery": {
+      "type": "object"
+    },
+    "taxRelation": {
+      "type": "string",
+      "default": "AND"
+    },
+    "catOperator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "tagOperator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "postsPerPage": {
+      "type": "number",
+      "default": 6
+    },
+    "sorting": {
+      "type": "object",
+      "default": {
+        "order": "desc",
+        "orderBy": "date"
+      }
+    },
+    "postIds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "default": []
+    },
+    "excludeCurrentPost": {
+      "type": "boolean",
+      "default": false
+    },
+    "ignoreSticky": {
+      "type": "boolean",
+      "default": false
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "paginationType": {
+      "type": "string",
+      "default": "pagination"
+    },
+    "paginationAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "excerpt": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 55
+    },
+    "rowGap": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "value": 20
+      }
+    }
+  },
+  "keywords": [],
+  "textdomain": "post-crafts",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
